@@ -883,8 +883,11 @@ nav .menu-btn i{
   border: 1px solid black;
   font-size: 20px;         
 }
+.cart{
+padding-top: 30px;
+}
 .links-footer{
-  display:block;      
+  display:block      
 } 
 
 }
