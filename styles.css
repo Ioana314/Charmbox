@@ -34,7 +34,7 @@ body::-webkit-scrollbar-thumb {
 }
 @keyframes movinglogo {
     from { width: 0 }
-    to { width: 31% }}   
+    to { width: 30% }}   
 nav{
       display: flex;
       height: 120px;
@@ -101,9 +101,10 @@ input[type="checkbox"]{
    
   }
 .box:hover input{
-    width: 200px;
+    width: 110px;
     border: 1px solid white;
     border-radius: 3px;
+    padding: 2px;
   }
 .box input{
     width:0;
@@ -302,8 +303,64 @@ a.read_more:hover {
     background-color: #D4AF37;
     font-size: 20px;
   }
+.links-footer{
+ display:flex;
+ align-items: center;
+    
+    font-size: 22px;
+    font-weight: bold;
+  
+    text-decoration: none;
 
+    justify-content: center;
+    padding: 10px;
+    
+}
+.links-footer a{
+  padding: 0px 10px 10px 10px;
+  text-decoration: none;
+  color:  #D12322;
+ 
+}
+.links-footer a:hover{
+  text-decoration: underline;}
+  .links-terms a{
+    display: block;
+    
+  }
 
+  .terms {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 25px;
+    background: linear-gradient(to bottom, #f0f0f0, #D4AF37);;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+   
+  }
+
+  .terms h2 {
+    color: #D12322;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #D12322;
+    padding: 10px;
+    text-align: center;
+  
+  }
+
+  .terms p {
+    color: #555;
+    line-height: 1.6;
+   
+  }
+
+  .terms li{
+    color: #555;
+    line-height: 1.6;
+    margin-left: 35px;
+  }
+  
 /* About us page */
 
 
@@ -826,7 +883,10 @@ nav .menu-btn i{
   border: 1px solid black;
   font-size: 20px;         
 }
-         
+.links-footer{
+  display:block;      
+} 
+
 }
  
 
